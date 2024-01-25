@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.feed-div{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    gap: 2rem;
+}
+
+.feed-component{
+    display: flex;
+    flex: 1 0 0%;
+    flex-direction: column;
+}
+
+.component-header{
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-date{
+    margin-left: auto;
+}
+
+.date-small-caps{
+    font-size: small;
+    color:gray;
+}
+
+img{
+    width: 100%;
+}
+
+.caption{
+    font-size: small;
+}
+
+.margin-sides{
+    margin: 0 1rem 0 1rem;
+}
